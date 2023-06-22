@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+
+   const nome = prompt("Qual o seu nome?");
+   const idade = parseInt(prompt("Quanto anos você tem?"));
+   const linguagem = prompt("Qual linguagem de programação você está estudando?"); 
+
+   alert(`Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}`);
+   
+   let perguntaDeEstudoDeLinguagem = parseInt(prompt(`Você gostaria de estudar ${linguagem}? Responda com número 1 para SIM ou 2 para NÃO.`));
+   
+   if(perguntaDeEstudoDeLinguagem == 1) {
+    alert(`Muito bom! Continue estudando e você terá sucesso.`);
+   } else if(perguntaDeEstudoDeLinguagem == 2){
+    alert(`> Ahh que pena... Já tentou aprender outras linguagens?`);
+   }
+
+
+
+</script>

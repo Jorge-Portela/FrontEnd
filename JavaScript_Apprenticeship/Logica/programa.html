@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+
+
+<script>
+
+    function pulaLinha () {
+        document.write("<br>");
+    }
+
+    function mostra () {
+
+        document.write ("Desde 1500 foram geradas aproximadamente " + Math.round(geracaoGerada) + " geracões.");
+        pulaLinha ();
+
+    }
+
+    var anoChegadaPortug = 1500;
+    var anoAtual = 2023;
+    var mediaIdadePaterna = 28;
+    var geracaoGerada = (anoAtual - anoChegadaPortug)/mediaIdadePaterna;
+
+    mostra();
+
+</script>

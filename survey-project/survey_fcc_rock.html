@@ -11,11 +11,14 @@
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form" method="post" action="https://survey-form.freecodecamp.rocks">
+
         <fieldset>
-            <label for="name-label">Name <input id="name-label"  type="text" required></label>
+            <label for="name-label">Name <input id="name-label" type="text" required></label>
             <label for="email-label">Email <input id="email-label" type="email" required></label>
-            <label for="number-label">Age <span>(optional)</span><input id="number-label" type="number"  min="12" max="120"></label>
+            <label for="number-label">Age <span>(optional)</span><input id="number-label" type="number" min="12"
+                    max="120"></label>
         </fieldset>
+
         <fieldset>
             <label for="activity-description">Which option best describes your current role?
                 <select id="activity-description" name="activity-description">
@@ -28,8 +31,21 @@
                 </select>
             </label>
         </fieldset>
+
+        <fieldset>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label for="Definitely-recommendation"> <input id="Definitely-recommendation" name="recommendation"
+                    type="radio" required>Definitely</label>
+            <label for="Maybe-recommendation"><input id="Maybe-recommendation" name="recommendation" type="radio"
+                    required>Maybe</label>
+            <label for="Not-sure-recommendation"><input id="Not-sure-recommendation" name="recommendation" type="radio"
+                    required>Not sure</label>
+        </fieldset>
+
         <fieldset></fieldset>
+
         <fieldset></fieldset>
+
         <fieldset></fieldset>
 
     </form>

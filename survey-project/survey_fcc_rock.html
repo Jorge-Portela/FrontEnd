@@ -12,19 +12,19 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form" method="post" action="https://survey-form.freecodecamp.rocks">
         <fieldset>
-            <label for="name">Name <input id="name"  type="text" required></label>
-            <label for="email">Email <input id="email" type="email" required></label>
-            <label for="number">Age <span>(optional)</span><input type="number"></label>
+            <label for="name-label">Name <input id="name-label"  type="text" required></label>
+            <label for="email-label">Email <input id="email-label" type="email" required></label>
+            <label for="number-label">Age <span>(optional)</span><input id="number-label" type="number"  min="12" max="120"></label>
         </fieldset>
         <fieldset>
-            <label for="activity-description">
-                <select name="activity-description" id="activity-description">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+            <label for="activity-description">Which option best describes your current role?
+                <select id="activity-description" name="activity-description">
+                    <option value="">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer not say</option>
+                    <option value="5">Other</option>
                 </select>
             </label>
         </fieldset>

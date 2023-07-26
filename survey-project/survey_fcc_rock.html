@@ -17,6 +17,7 @@
 <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
+    
     <form id="survey-form" method="post" action="https://survey-form.freecodecamp.rocks">
 
         <fieldset>
@@ -65,26 +66,27 @@
 
         <fieldset>
             <p>What would you like to see improved? <span>(Check all that apply)</span></p>
-            <label for="front-end_projects-label"><input type="checkbox" id="front-end_projects-label"
-                    name="front-end_projects ">Front-end Projects</label>
-            <label for="back-end_projects-label"><input type="checkbox" id="back-end_projects-label"
-                    name="back-end_projects">Back-end Projects</label>
-            <label for="data_visualization-label"><input type="checkbox" id="data_visualization-label"
-                    name="data_visualization">Data Visualization</label>
-            <label for="challenges-label"><input type="checkbox" id="challenges-label" t
-                    name="challenges">Challenges</label>
-            <label for="open_source_community-label"><input type="checkbox" id="open_source_community-label"
-                    name="open_source_community">Open Source Community</label>
-            <label for="gitter_help_rooms-label"><input type="checkbox" id="gitter_help_rooms-label"
-                    name="gitter_help_rooms">Gitter help rooms</label>
-            <label for="videos-label"><input type="checkbox" id="videos-label" name="videos">Videos</label>
-            <label for="city_meetups-label"><input type="checkbox" id="city_meetups-label" name="city_meetups">City
+            <label><input type="checkbox" value="front-end_projects-label" name="front-end_projects ">Front-end
+                Projects</label>
+            <label><input type="checkbox" value="back-end_projects-label" name="back-end_projects">Back-end
+                Projects</label>
+            <label><input type="checkbox" value="data_visualization-label" name="data_visualization">Data
+                Visualization</label>
+            <label><input type="checkbox" value="challenges-label" t name="challenges">Challenges</label>
+            <label><input type="checkbox" value="open_source_community-label" name="open_source_community">Open Source
+                Community</label>
+            <label><input type="checkbox" value="gitter_help_rooms-label" name="gitter_help_rooms">Gitter help
+                rooms</label>
+            <label><input type="checkbox" value="videos-label" name="videos">Videos</label>
+            <label><input type="checkbox" value="city_meetups-label" name="city_meetups">City
                 Meetups</label>
-            <label for="wiki-label"><input type="checkbox" id="wiki-label" name="wiki">Wiki</label>
-            <label for="forum-label"><input type="checkbox" id="forum-label" name="forum">Forum</label>
-            <label for="additional_courses-label"><input type="checkbox" id="additional_courses-label"
-                    name="additional_courses">Additional Courses</label>
+            <label><input type="checkbox" value="wiki-label" name="wiki">Wiki</label>
+            <label><input type="checkbox" value="forum-label" name="forum">Forum</label>
+            <label><input type="checkbox" value="additional_courses-label" name="additional_courses">Additional
+                Courses</label>
+        </fieldset>
 
+        <fieldset>
             <label for="">Any comments or suggestions?
                 <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
             </label>

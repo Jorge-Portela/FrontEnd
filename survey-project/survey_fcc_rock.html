@@ -3,8 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>survey-form.freecodecamp.rocks</title>
     <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,400&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -13,10 +20,12 @@
     <form id="survey-form" method="post" action="https://survey-form.freecodecamp.rocks">
 
         <fieldset>
-            <label for="name-label">Name <input id="name-label" type="text" required></label>
-            <label for="email-label">Email <input id="email-label" type="email" required></label>
+            <label for="name-label">Name <input id="name-label" type="text" placeholder="Enter your name"
+                    required></label>
+            <label for="email-label">Email <input id="email-label" type="email" placeholder="Enter your Email"
+                    required></label>
             <label for="number-label">Age <span>(optional)</span><input id="number-label" type="number" min="12"
-                    max="120"></label>
+                    max="120" placeholder="Age"></label>
         </fieldset>
 
         <fieldset>
@@ -56,17 +65,25 @@
 
         <fieldset>
             <p>What would you like to see improved? <span>(Check all that apply)</span></p>
-            <label for=""><input id="" type="checkbox" name=" ">Front-end Projects</label>
-            <label for=""><input id="" type="checkbox" name=" ">ack-end Projects</label>
-            <label for=""><input id="" type="checkbox" name=" ">Data Visualization</label>
-            <label for=""><input id="" type="checkbox" name=" ">Challenges</label>
-            <label for=""><input id="" type="checkbox" name=" ">Open Source Community</label>
-            <label for=""><input id="" type="checkbox" name=" ">Gitter help rooms</label>
-            <label for=""><input id="" type="checkbox" name=" ">Videos</label>
-            <label for=""><input id="" type="checkbox" name=" ">City Meetups</label>
-            <label for=""><input id="" type="checkbox" name=" ">Wiki</label>
-            <label for=""><input id="" type="checkbox" name=" ">Forum</label>
-            <label for=""><input id="" type="checkbox" name=" ">Additional Courses</label>
+            <label for="front-end_projects-label"><input type="checkbox" id="front-end_projects-label"
+                    name="front-end_projects ">Front-end Projects</label>
+            <label for="back-end_projects-label"><input type="checkbox" id="back-end_projects-label"
+                    name="back-end_projects">Back-end Projects</label>
+            <label for="data_visualization-label"><input type="checkbox" id="data_visualization-label"
+                    name="data_visualization">Data Visualization</label>
+            <label for="challenges-label"><input type="checkbox" id="challenges-label" t
+                    name="challenges">Challenges</label>
+            <label for="open_source_community-label"><input type="checkbox" id="open_source_community-label"
+                    name="open_source_community">Open Source Community</label>
+            <label for="gitter_help_rooms-label"><input type="checkbox" id="gitter_help_rooms-label"
+                    name="gitter_help_rooms">Gitter help rooms</label>
+            <label for="videos-label"><input type="checkbox" id="videos-label" name="videos">Videos</label>
+            <label for="city_meetups-label"><input type="checkbox" id="city_meetups-label" name="city_meetups">City
+                Meetups</label>
+            <label for="wiki-label"><input type="checkbox" id="wiki-label" name="wiki">Wiki</label>
+            <label for="forum-label"><input type="checkbox" id="forum-label" name="forum">Forum</label>
+            <label for="additional_courses-label"><input type="checkbox" id="additional_courses-label"
+                    name="additional_courses">Additional Courses</label>
 
             <label for="">Any comments or suggestions?
                 <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>

@@ -1,0 +1,21 @@
+
+const msg = "Hello World!";
+const x = 4;
+const y = 3;
+let soma = x + y;
+let subtração = x - y;
+let multiplicacao = x * y;
+let divisao = x / y;
+let restoDivisao = x % y;
+let potencia = x ^ y;
+let outraPotencia = Math.pow(y,x);
+let raiz = Math.sqrt(y);
+console.log(msg);
+console.log(soma);
+console.log(subtração);
+console.log(multiplicacao);
+console.log(divisao);
+console.log(restoDivisao);
+console.log(potencia);
+console.log(outraPotencia);
+console.log(raiz);
